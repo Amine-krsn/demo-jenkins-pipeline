@@ -1,0 +1,25 @@
+{
+  "name": "demo-jenkins-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amine-krsn/demo-jenkins-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amine-krsn/demo-jenkins-pipeline/issues"
+  },
+  "homepage": "https://github.com/Amine-krsn/demo-jenkins-pipeline#readme",
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "jest-junit": "^16.0.0"
+  }
+ }
+
