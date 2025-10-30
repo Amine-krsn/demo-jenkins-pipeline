@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        docker { 
-            image 'node:18-alpine' }
-            args '-v $WORKSPACE:/app -w /app'   // ✅ monte le workspace dans /app        
+        docker { image 'node:18-alpine' }        
     }
 
     stages {
